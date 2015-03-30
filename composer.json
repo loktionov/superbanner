@@ -1,5 +1,6 @@
 {
     "name": "loktionov/yii2-superbanner",
+    "version": "1.0.0",
     "type": "yii2-extension",
     "description": "Generate banners for the Yii framework",
     "keywords": ["yii2", "banner", "superbanner", "helper"],
