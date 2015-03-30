@@ -1,0 +1,25 @@
+{
+    // package name
+    "name": "loktionov/yii2-superbanner",
+
+    // package type
+    "type": "yii2-extension",
+
+    "description": "Generate banners for the Yii framework",
+    "keywords": ["yii2", "banner", "superbanner", "helper"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/loktionov/superbanner"
+    },
+    "authors": [
+        {
+            "name": "Artem Loktionov",
+            "email": "loktionov.art@gmail.com"
+        }
+    ],
+
+    // package dependencies
+    "require": {
+        "yiisoft/yii2": "*",
+    },
+}
