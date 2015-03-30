@@ -12,7 +12,7 @@ class Superbanner
         $c = $this->getCount($c);
         if (!$c) return false;
         $alias = '@loktionov/superbanner/views/' . $tmpl;
-        $res = array();
+        $res = [];
         for ($i = 0; $i < $c; $i++)
             $res[] = \Yii::$app->controller->renderPartial($alias, ['id'=>$i]);
         return $res;
